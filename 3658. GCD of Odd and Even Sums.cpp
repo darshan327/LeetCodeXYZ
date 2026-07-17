@@ -17,9 +17,9 @@ public:
 
 int main(){
     Solution obj;
-    int n;
-    cin>>n;
-    int ans = obj.gcdOfOddEvenSums(n);
+    int q;
+    cin>>q;
+    int ans = obj.gcdOfOddEvenSums(q);
     cout<<ans;
     return 0;
 }
